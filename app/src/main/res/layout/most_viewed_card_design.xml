@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/mostviewdImageId"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/macdonald"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/mostviewHeadingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="@string/macdonald_heading"
+            android:textAlignment="textStart"
+            android:textColor="@color/textColor_black"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/mostviewdImageId"
+            android:layout_marginStart="10dp"
+            />
+
+        <RatingBar
+            android:id="@+id/mostviewCardRatingId"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mostviewdImageId"
+            android:layout_below="@id/mostviewHeadingId"
+            android:layout_marginLeft="10dp"
+            android:rating="3.5" />
+
+        <TextView
+            android:id="@+id/mostviewCardDescId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/search_location_desc"
+            android:textColor="@color/brownDarkPrimary"
+            android:layout_toRightOf="@id/mostviewdImageId"
+            android:layout_below="@id/mostviewCardRatingId"
+            android:padding="10dp"
+            android:autoSizeMaxTextSize="14sp"
+            android:autoSizeMinTextSize="12sp"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

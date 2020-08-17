@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="150dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/categoriesLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tealDarkPrimary"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/categoriesHeadingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="@string/restaurant"
+            android:textColor="@color/textColor_black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/categoriesImagesId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/macdonald" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

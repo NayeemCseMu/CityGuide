@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+    <string name="powered_by">Powered by Nayeem Islam</string>
+
+    /*button section name*/
+    <string name="let_get_started">Lets get started</string>
+    <string name="skip_btn">Skip</string>
+
+    /*slider heading*/
+    <string name="sit_back_heading">Sit Back And Enjoy</string>
+    <string name="missing_place_heading">Add Missing Place</string>
+    <string name="make_call_heading">Make A Call</string>
+    <string name="search_location_heading">Search Your Location</string>
+
+    /*slider description*/
+    <string name="sit_back_desc">Here add the strings of the title Description and Buttons between the resources tag.</string>
+    <string name="missing_place_desc">Here add the strings of the title Description and Buttons between the resources tag.</string>
+    <string name="make_call_desc">Here add the strings of the title Description and Buttons between the resources tag.</string>
+    <string name="search_location_desc">Here add the strings of the title Description and Buttons between the resources tag.</string>
+
+    <string name="logo_name">Get A Way</string>
+    <string name="search_hint">Search...</string>
+
+    /*featured*/
+    <string name="featured_text">All Featured Location </string>
+    <string name="restaurant">Restaurant</string>
+    <string name="hotel">Hotel</string>
+    <string name="airport">Airport</string>
+    <string name="shop">Shop</string>
+
+    <string name="most_view_location">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+
+    <string name="macdonald_heading">Macdonald</string>
+    <string name="kfc_heading">KFC</string>
+    <string name="bristol_heading">Bristol</string>
+</resources>
